@@ -19,8 +19,8 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
   config:
     import:
-      - application_qa.yml
-      - application_prod.yml
+      - employees-qa.yml
+      - employees-prod.yml
   profiles:
     active: qa
 
